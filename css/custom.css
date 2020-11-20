@@ -1,0 +1,18 @@
+/* ----------------------------------------------------------------
+	Custom CSS
+
+	Add all your Custom Styled CSS here for New Styles or
+	Overwriting Default Theme Styles for Better Handling Updates
+-----------------------------------------------------------------*/
+
+.clients-grid .grid-item .img-1:hover{
+position: relative;
+/* -webkit-transform: scale(1.1); */
+-ms-transform: scale(1.1);
+transform: scale(1.1);
+
+filter: grayscale(0);
+-webkit-box-shadow: 0 1px 10px #e0dddb;
+box-shadow: 0 1px 10px #e0dddb;
+/* border-radius: 6px; */
+}
