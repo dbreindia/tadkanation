@@ -3371,6 +3371,7 @@ html[xmlns] .slider-wrap {
 }
 
 #logo a.standard-logo {
+	transform: translateY(20px);
 	display: -ms-flexbox;
 	display: flex;
 }
@@ -3388,7 +3389,7 @@ html[xmlns] .slider-wrap {
 
 	.sticky-header-shrink #header-wrap #logo img {
 		height: 60px;
-		transform: translateY(50%);
+		transform: translateY(20%);
 		transition: all 0.5s ease-in-out;    
 	}
 
